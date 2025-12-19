@@ -8,12 +8,11 @@ const sETH_ABI = require("../../lib/abis/sETH.json");
 const governance_ABI = require("../../lib/abis/governance.json");
 
 // Smart Contract Addresses on Holesky Testnet
-// These addresses match the deployed contracts in components/web3-provider.tsx
 const DETH_CONTRACT_ADDRESS = "0x520d7dAB4A5bCE6ceA323470dbffCea14b78253a";
 const SETH_CONTRACT_ADDRESS = "0x16b0cD88e546a90DbE380A63EbfcB487A9A05D8e";
 const GOVERNANCE_CONTRACT_ADDRESS = "0xD396FE92075716598FAC875D12E708622339FA3e";
 
-// Holesky RPC URL
+// Holesky RPC URL - Try this first (no API key needed)
 const HOLESKY_RPC_URL = "https://holesky.drpc.org";
 
 /**

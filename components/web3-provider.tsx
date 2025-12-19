@@ -19,7 +19,7 @@ const STAKING_DASHBOARD_ADDRESS = "0xd33e9676463597AfFF5bB829796836631F4e2f1f"
 
 // Holesky testnet configuration
 const HOLESKY_CHAIN_ID = 17000
-const HOLESKY_RPC_URL = "https://ethereum-holesky-rpc.publicnode.com"
+const HOLESKY_RPC_URL = "https://holesky.drpc.org"
 
 type Web3ContextType = {
   account: string | null
